@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="./peces.css">
+    <link type="text/css" rel="stylesheet" href="./peces2.css">
+    <link rel="icon" href="./Imagenes-peces/pixlr-bg-result (1).png">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200;1,300;1,400&display=swap" rel="stylesheet">
+    <style>
+
+
+input {
+	font:inherit;
+}
+section {
+    width: 82%;
+	display: flex;
+    justify-content: end;
+    margin-top: 20px;
+    padding-right: 30px;
+    float: left;
+}
+form > div {
+	background:#fff;
+	padding: 9px 22px 9px 26px;
+	border-radius: 30px;
+	border:2px solid #6093c7;
+}
+form input {
+	border:none;
+	background: transparent;
+	font-weight: bold;
+	padding-left: 24px;
+	background-image: url(https://image.flaticon.com/icons/png/512/116/116836.png);
+	background-size: 16px;
+	background-repeat: no-repeat;
+	width: 0px;
+	transition: all 1s;
+}
+form input:focus {
+	outline: none;
+	width: 200px;
+}
+
+/*      CONTACTO        */
+.call-us{
+    width: 18%;
+    height: 80px;
+    display: flex;
+    margin-top: 70px;
+    justify-content: end;
+    overflow: hidden;
+    background-color: rgb(57, 230, 172);
+}
+
+.text-num{
+    width: 100%;
+    margin-top: 15px;
+    text-align: center;
+}
+        .footer-conteiner{
+    width: 90%;
+    margin: auto;
+    height: 500px;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-evenly;
+}
+.direction{
+    background-color: rgb(57, 230, 172);
+    width: 25%;
+}
+
+.shop-animals{
+    background-color: rgb(57, 230, 172);
+    width: 25%;
+}
+
+.info{
+    background-color: rgb(57, 230, 172);
+    width: 25%;
+}
+
+.notify{
+    background-color: rgb(57, 230, 172);
+    width: 25%;
+}
+
+.title-footer{
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+.content-text{
+    width: 82%;
+    display: flex;
+    padding-left: 90px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+a >.stores-text{
+    display: flex;
+    margin-top: 50px;
+    padding-left: 90px;
+    color: black;
+}
+
+h5 > a{
+    width: 100%;
+    display: flex;
+    margin-top: 45px;
+    color: black;
+    text-decoration: none;
+    justify-content: center;
+    font-weight: 400;
+}
+
+.direction-footer{
+    width: 100%;
+    display: flex;
+    margin-top: 45px;
+    font-weight: 400;
+    justify-content: center;
+}
+
+.email{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.suscribe{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height: 35px;
+    margin: auto;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.suscribe:hover{
+    transition: 0.8s ease-in-out;
+    background-color: rgb(57, 230, 172);
+}
+.subt-footer {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.icons-footer, a >i{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    text-decoration: none;
+    gap: 0 80px;
+    color: black;
+}
+
+.end-footer{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    justify-content: space-evenly;
+}
+
+
+
+/*    MEDIA QUERIES  "RESPONSIVE"   */
+
+@media screen and (max-width: 750px){
+    .icono{
+        display: flex;
+        font-size: 30px;
+        color: white;
+        justify-content: center;
+        height: 70px;
+        align-items: center;
+        background: transparent;
+        z-index: 100;
+        padding: 20px;
+        cursor: pointer;
+        margin-right: 20px;
+    }
+    
+    .enlaces{
+        position: fixed;
+        flex-direction: column;
+        transition: all 1.4s ease;
+        width: 100%;
+        height: 100vh;
+        right: 0;
+        background: #1D976C;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #93F9B9, #1D976C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+    .uno{
+        clip-path: circle(0% at 100% 0);
+    }
+
+    .dos{
+        clip-path: circle(150% at 100% 0%);
+    }
+    nav .logo a >img{
+        width: 120px;
+    }
+    nav .logo{
+        margin-left: 30px;
+    }
+    #close{
+        display: none;
+    }
+    .content{
+        display: none;
+    }
+    .sub-title{
+        width: 100%;
+    }
+    .text{
+        margin-top: 80px;
+    }
+    section{
+    width: 100%;
+	display: flex;
+    justify-content: end;
+    margin-top: 90px;
+    padding-right: 20px;
+    }
+    .icons{
+        width: 50px;
+        display: flex;
+        position: initial;
+    }
+    .icons a{
+        margin-left: 20px;
+    }
+    .register{
+        width: 100%;
+        display: flex;
+        margin-left: 10px;
+        justify-content: end;
+        margin-top: 15px;
+        float: left;
+    }
+    .footer-conteiner{
+        display: flex;
+        flex-direction: row;
+    }
+}
+        
+        #img{
+            position: relative;
+            float: left;
+        }
+        #titulo{
+            text-align: center;
+            font-size: 3em;
+            position: absolute;
+            top: 20px;
+        }
+        .nav{
+
+            position: absolute;
+            left: 470px;
+            top: 60px;
+            width: 800px;
+        }
+        #categorias{
+            position: absolute;
+            margin: auto;
+            width: 500px;
+        }
+        .nav>li>a{
+            width: 500px;
+        }
+        ul{
+            list-style: none;
+        }
+        .nav li {
+            float: left;
+        }
+        .nav a{
+            text-decoration: none;
+            display: block;
+            background-color: #0c0e7c;
+            color: white;
+            padding: 10px 12px;
+
+        }
+        .nav a:hover{
+            background-color: #24aaad;
+        }
+        .nav li ul{
+            display: none;
+            position: absolute;
+            min-width: 140px;
+        }
+        .nav li:hover > ul{
+            display: block;
+        }
+        .rut{
+            width: 170px;
+        }
+        #peces{
+            width: 1000px;
+            height: 25px;
+            border-bottom: 0px solid;
+            left: 100px;
+            margin: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="./Imagenes-peces/pixlr-bg-result (1).png" alt="">
+                </a>
+            </div>
+            <div class="hamburguesa"></div>
+
+
+            <div class="icono" id="icono">
+                <span>
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times" id="close"></i>
+                </span>
+            </div>
+            <div class="enlaces uno" id="enlaces">
+                <a href="./dogs.html" class="active">Dogs</a>
+                <a href="./cats.html">Cats</a>
+                <a href="./Hamsters.html">Hamsters</a>
+                <a href="./Birds.html">Birds</a>
+                <a href="./productopeces.html">Fish</a>
+                <a href="#">Contacto</a>
+            </div>
+        </nav>
+    </header>
+    <div class="conent">
+        <aside>
+            <section>
+                <form autocomplete="off">
+            <div id="buscador">
+                <input type="name" placeholder="Que deseas buscar?">
+            </div>
+                </form>
+            </section>
+        </aside>
+            <div class="content">
+                <div class="call-us">
+                    <h3 class="text-num">Call Us <br>999-888-777</h3>
+                </div>
+            </div>
+        </div>
+    
+        <main>
+            <div class="register">
+                <div class="regist-icon">
+                    <a href="#">
+                        <i class="fas fa-user-circle"> &nbsp; Login</i>
+                    </a>
+                    <a href="#">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                </div>
+            </div>
+        </main>
+
+    <br>
+    <div id="peces">
+        
+        <center><h2>Articulos para peces</h2></center>
+    </div>
+    <div class="icons">
+        <a href="#">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="#">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </div>
+    <a href="./producto1.html">
+    <div class="section">
+        <div class="box">
+            <img src="./Imagenes-peces/acu.jpg">
+            <div class="hover">
+                <h1>Acuario chems<br><u>Precio: $/.89</u><br>Antes: <strike>$/.100</strike>
+                   
+            </div>
+        </div>
+    </div>
+    </a>
+    <a href="./producto2.html">
+    <div id="motor">
+    <div class="section">
+        <div class="box">
+            <img src="./Imagenes-peces/acu2.jpg" alt="">
+            <div class="hover">
+                <h1>Motor de agua<u><Main>Precio: $/.110</Main></u>Antes: <strike>$/.150</strike>
+                   
+            </div>
+        </div>
+    </div>
+</div>
+</a>
+<a href="./producto3.html">
+<div id="juguete">
+    <div class="section">
+        <div class="box">
+            <img src="./Imagenes-peces/ju.jpg">
+            <div class="hover">
+                <h1>Juguete para peces<u><Main>Precio: $/.200</Main></u>Antes: <strike>$/.240</strike>
+                   
+            </div>
+        </div>
+    </div>
+</div>
+</a>
+<a href="./producto4.html">
+<div id="comida">
+    <div class="section">
+        <div class="box">
+            <img src="./Imagenes-peces/comida.jpg" alt="">
+            <div class="hover">
+                <h1>Comida<u><Main>Precio: $/.150</Main></u>Antes: <strike>$/.190</strike>
+                   
+            </div>
+        </div>
+    </div>
+</div>
+</a>
+<footer class="footer-conteiner">
+    <div class="direction">
+        <h3 class="title-footer">Nuestra Tienda</h3>
+        <h4 class="content-text">500 Terry Francois Street
+            San Francisco, CA 94158
+            Tel: 123-456-7890</h4>
+            <a href="#" class="store">
+                <i class="stores-text">Ver lista de Tiendas</i>
+            </a>
+    </div>
+    <div class="shop-animals">
+        <h3 class="title-footer">Tienda</h3>
+        <h5 class="content-shop">
+            <a href="#">Dogs</a>
+            <a href="#">Cats</a>
+            <a href="#">Hamster</a>
+            <a href="#">Birds</a>
+            <a href="#">Fish</a>
+        </h5>
+    </div>
+    <div class="info">
+        <h3 class="title-footer">Información</h3>
+        <h5 class="info-footer">
+            <a href="#">Informacion</a>
+            <a href="#">Contacto</a>
+            <a href="#">Politica de la Tienda</a>
+            <a href="#">Envio y Devoluciones</a>
+        </h5>
+    </div>
+    <div class="notify">
+        <h3 class="title-footer">Obtenga ofertas y promociones</h3>
+        <h5 class="direction-footer">Direccion de correo electronico*</h5>
+        <input type="email" class="email">
+        <input type="submit" value="Suscribirse" class="suscribe">
+        <h3 class="subt-footer">Animate a seguirnos!</h3>
+        <div class="icons-footer">
+            <a href="#">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+<div class="end-footer">
+    <h5>© 2023 Derechos Reservados por Chems Pet</h5>
+</div>
+
+
+<script src="./peces.js"></script>
+<script src="https://kit.fontawesome.com/97195b44ec.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,506 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*   INICIO */
+
+body{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*      ENCABEZADO      */
+header{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+header nav{
+    width: 100%;
+    position: fixed;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.863);
+    justify-content: space-between;
+    display: flex;
+}
+.icono{
+    display: none;
+}
+.enlaces{
+    display: flex;
+    height: 100%;
+    width: 55%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.enlaces a{
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    padding: 4px 0;
+    transition: 0.7s ease-in-out;
+    color: #fff;
+    text-decoration: none;
+}
+
+.enlaces a:hover, .active{
+    border-top: 1px solid #93F9B9;
+    border-bottom: 1px solid #93F9B9;
+}
+
+/*         LOGO         */
+
+nav .logo{
+    height: 100%;
+    margin-left: 90px;
+}
+nav .logo a >img{
+    width: 120px;
+}
+
+/*      SUBTITULO       */
+.sub-title{
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    margin-top: 80px;
+}
+.text{
+    font-weight: 300;
+}
+
+/*      BUSCADOR        */
+
+input {
+	font:inherit;
+}
+section {
+    width: 82%;
+	display: flex;
+    justify-content: end;
+    margin-top: 20px;
+    padding-right: 30px;
+    float: left;
+}
+form > div {
+	background:#fff;
+	padding: 9px 22px 9px 26px;
+	border-radius: 30px;
+	border:2px solid #6093c7;
+}
+form input {
+	border:none;
+	background: transparent;
+	font-weight: bold;
+	padding-left: 24px;
+	background-image: url(https://image.flaticon.com/icons/png/512/116/116836.png);
+	background-size: 16px;
+	background-repeat: no-repeat;
+	width: 0px;
+	transition: all 1s;
+}
+form input:focus {
+	outline: none;
+	width: 200px;
+}
+
+/*      CONTACTO        */
+.call-us{
+    width: 18%;
+    height: 80px;
+    display: flex;
+    margin-top: 70px;
+    justify-content: end;
+    overflow: hidden;
+    background-color: rgb(57, 230, 172);
+}
+
+.text-num{
+    width: 100%;
+    margin-top: 15px;
+    text-align: center;
+}
+
+/*      LOGIN Y CARRITO WEB     */
+
+.register{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.regist-icon{
+    display: flex;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-right: 30px;
+    gap: 0 50px;
+}
+
+.regist-icon a{
+    color: black;
+}
+
+/*      REDES SOCIALES       */
+
+.icons{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    gap: 50px 0;
+}
+.icons a{
+    display: flex;
+    font-size: 20px;
+    margin-left: 20px;
+    color: black;
+    text-decoration: none;
+    justify-content: start;
+}
+
+/*      PRODUCTOS DE VENTAS     */
+
+.items{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px 30px;
+}
+
+/*      PIE DE PAGINA       */
+.footer-conteiner{
+    width: 90%;
+    margin: auto;
+    margin-top: 80px;
+    height: 500px;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-evenly;
+}
+.direction{
+    background-color: rgb(57, 230, 172);
+    width: 25%;
+}
+
+.shop-animals{
+    background-color: rgb(57, 230, 172);
+    width: 25%;
+}
+
+.info{
+    background-color: rgb(57, 230, 172);
+    width: 25%;
+}
+
+.notify{
+    background-color: rgb(57, 230, 172);
+    width: 25%;
+}
+
+.title-footer{
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+.content-text{
+    width: 82%;
+    display: flex;
+    padding-left: 90px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+a >.stores-text{
+    display: flex;
+    margin-top: 50px;
+    padding-left: 90px;
+    color: black;
+}
+
+h5 > a{
+    width: 100%;
+    display: flex;
+    margin-top: 45px;
+    color: black;
+    text-decoration: none;
+    justify-content: center;
+    font-weight: 400;
+}
+
+.direction-footer{
+    width: 100%;
+    display: flex;
+    margin-top: 45px;
+    font-weight: 400;
+    justify-content: center;
+}
+
+.email{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.suscribe{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height: 35px;
+    margin: auto;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.suscribe:hover{
+    transition: 0.8s ease-in-out;
+    background-color: rgb(57, 230, 172);
+}
+.subt-footer {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.icons-footer, a >i{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    text-decoration: none;
+    gap: 0 80px;
+    color: black;
+}
+
+.end-footer{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    justify-content: space-evenly;
+}
+
+
+
+/*    MEDIA QUERIES  "RESPONSIVE"   */
+
+@media screen and (max-width: 750px){
+    .icono{
+        display: flex;
+        font-size: 30px;
+        color: white;
+        justify-content: center;
+        height: 70px;
+        align-items: center;
+        background: transparent;
+        z-index: 100;
+        padding: 20px;
+        cursor: pointer;
+        margin-right: 20px;
+    }
+    
+    .enlaces{
+        position: fixed;
+        flex-direction: column;
+        transition: all 1.4s ease;
+        width: 100%;
+        height: 103vh;
+        right: 0;
+        background: #1D976C;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #93F9B9, #1D976C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+    .uno{
+        clip-path: circle(0% at 100% 0);
+    }
+
+    .dos{
+        clip-path: circle(150% at 100% 0%);
+    }
+    nav .logo a >img{
+        width: 120px;
+    }
+    nav .logo{
+        margin-left: 30px;
+    }
+    #close{
+        display: none;
+    }
+    .content{
+        display: none;
+    }
+    .sub-title{
+        width: 100%;
+    }
+    .text{
+        margin-top: 80px;
+    }
+    section{
+    width: 100%;
+	display: flex;
+    justify-content: end;
+    margin-top: 90px;
+    padding-right: 20px;
+    }
+    .icons{
+        width: 50px;
+        display: flex;
+        position: initial;
+    }
+    .icons a{
+        margin-left: 20px;
+    }
+    .register{
+        width: 100%;
+        display: flex;
+        margin-left: 10px;
+        justify-content: end;
+        margin-top: 15px;
+        float: left;
+    }
+    .footer-conteiner{
+        display: flex;
+        flex-direction: row;
+    }
+    .contenedor-imagenes .imagen{
+        position: relative;
+        height: 300px;
+        z-index: -1;
+        margin-top: 30px;
+        box-shadow: 0px 0px 3px 0px rgba(0, 0, 0,.75);
+    }
+    .icons-footer, a >i{
+        display: flex;
+        margin-top: 20px;
+        text-decoration: none;
+        overflow: hidden;
+        gap: 0 40px;
+        color: black;
+    }
+    .email{
+        display: flex;
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+        height: 50px;
+        margin-top: 15px;
+    }
+    .suscribe{
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        height: 45px;
+        margin: auto;
+        background-color: #000;
+        color: #fff;
+        border: 1px solid #000;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    
+    .suscribe:hover{
+        transition: 0.8s ease-in-out;
+        background-color: rgb(57, 230, 172);
+    }
+    .icons{
+        width: 50px;
+        display: flex;
+        position: initial;
+    }
+
+    footer ,.footer-conteiner{
+        width: 102%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+        justify-content: start;
+    }
+    .direction{
+        background-color: rgb(57, 230, 172);
+        width: 100%;
+        font-size: 20px;
+    }
+    
+    .shop-animals{
+        background-color: rgb(57, 230, 172);
+        width: 100%;
+        font-size: 20px;
+    }
+    
+    .info{
+        background-color: rgb(57, 230, 172);
+        width: 100%;
+        font-size: 20px;
+    }
+    
+    .notify{
+        background-color: rgb(57, 230, 172);
+        width: 100%;
+        font-size: 20px;
+    }
+    
+    .title-footer, h4{
+        margin-top: 90px;
+        display: flex;
+        justify-content: center;
+    }
+    .content-text{
+        width: 90%;
+        display: flex;
+        /* position: relative; */
+        text-align: center;
+        font-weight: 400;
+        margin-left: 40px;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .icons-footer, a >i{
+        display: flex;
+        margin-top: 20px;
+        text-decoration: none;
+        overflow: hidden;
+        gap: 0 40px;
+        color: black;
+    }
+    .email{
+        display: flex;
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+        height: 50px;
+        margin-top: 15px;
+    }
+    .suscribe{
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        height: 45px;
+        margin: auto;
+        background-color: #000;
+        color: #fff;
+        border: 1px solid #000;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    
+    .suscribe:hover{
+        transition: 0.8s ease-in-out;
+        background-color: rgb(57, 230, 172);
+    }
+    .icons{
+        width: 50px;
+        display: flex;
+        position: initial;
+    }
+}

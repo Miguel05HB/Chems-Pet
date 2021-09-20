@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="css/estiloposi.css">
+    <style>
+        /*      ENCABEZADO      */
+header{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+header nav{
+    width: 100%;
+    position: fixed;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.863);
+    justify-content: space-between;
+    display: flex;
+}
+.icono{
+    display: none;
+}
+.enlaces{
+    display: flex;
+    height: 100%;
+    width: 55%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.enlaces a{
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    padding: 4px 0;
+    transition: 0.7s ease-in-out;
+    color: #fff;
+    text-decoration: none;
+}
+
+.enlaces a:hover, .active{
+    border-top: 1px solid #93F9B9;
+    border-bottom: 1px solid #93F9B9;
+}
+
+/*         LOGO         */
+
+nav .logo{
+    height: 100%;
+    margin-left: 90px;
+}
+nav .logo a >img{
+    width: 120px;
+}
+        #img{
+            position: relative;
+            float: left;
+        }
+        #titulo{
+            text-align: center;
+            font-size: 3em;
+            position: absolute;
+            top: 20px;
+        }
+        .nav{
+
+            position: absolute;
+            left: 470px;
+            top: 60px;
+            width: 800px;
+        }
+        .nav>li>a{
+            width: 500px;
+        }
+        ul{
+            list-style: none;
+        }
+        .nav li {
+            float: left;
+        }
+        .nav a{
+            text-decoration: none;
+            display: block;
+            background-color: #0c0e7c;
+            color: white;
+            padding: 10px 12px;
+
+        }
+        .nav a:hover{
+            background-color: #24aaad;
+        }
+        .nav li ul{
+            display: none;
+            position: absolute;
+            min-width: 140px;
+        }
+        .nav li:hover > ul{
+            display: block;
+        }
+        .rut{
+            width: 170px;
+        }
+        #hombre{
+            width: 1000px;
+            height: 25px;
+            border-bottom: 1px solid;
+            left: 100px;
+            margin: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#">
+                    <img src="./Imagenes/pixlr-bg-result (1).png" alt="">
+                </a>
+            </div>
+            <div class="hamburguesa"></div>
+
+
+            <div class="icono" id="icono">
+                <span>
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times" id="close"></i>
+                </span>
+            </div>
+            <div class="enlaces uno" id="enlaces">
+                <a href="#" class="active">Dogs</a>
+                <a href="#">Cats</a>
+                <a href="#">Hamsters</a>
+                <a href="#">Birds</a>
+                <a href="productopeces.html">Fish</a>
+                <a href="#">Contacto</a>
+            </div>
+        </nav>
+    </header>
+    <div id="kayser"><h2><center>.</center></h2></div>
+    <br>
+    <div class="container-all">
+
+        <input type="radio" id="1" name="image-slide" hidden/>
+        <input type="radio" id="2" name="image-slide" hidden/>
+
+        <div class="slide">
+
+            <div class="item-slide">
+                <img src="Images/j1.jpg">
+            </div>
+
+            <div class="item-slide">
+                <img src="Images/j2.jpg">
+            </div>
+
+        </div>
+
+        <div class="pagination">
+
+            <label class="pagination-item" for="1">
+                <img src="Images/j1.jpg">
+            </label>
+
+            <label class="pagination-item" for="2">
+                <img src="Images/j2.jpg">
+            </label>
+        </div>
+    </div>
+    <div id="precio">
+        <h1 style="color: blue;">Juguete para peces</h1><br>
+        <h3 style="color: rgb(153, 153, 153);">
+            Marca: Chems
+        </h3><br>
+        <h1>$/.200.00</h1><br>
+        <h2><strike>$/.240.00</strike></h2>
+        <a href="">
+            <br>
+        <div id="añadir"><h2><center><strong>Añadir al Carrito</strong></center></h2></div>
+        </a>
+    </div>
+    </body>
+    </html>
