@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./estilos.css">
+    <link rel="stylesheet" href="./slider.css">
     <link rel="icon" href="./Imagenes-Inicio/pixlr-bg-result (1).png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,7 +36,7 @@
                 <a href="./Hamsters.html">Hamsters</a>
                 <a href="./Birds.html">Birds</a>
                 <a href="./productopeces.html">Fish</a>
-                <a href="#">Contacto</a>
+                <a href="./contacto.html">Contacto</a>
             </div>
         </nav>
     </header>
@@ -60,7 +61,7 @@
     <main>
         <div class="register">
             <div class="regist-icon">
-                <a href="#">
+                <a href="./login.html">
                     <i class="fas fa-user-circle"> &nbsp; Login</i>
                 </a>
                 <a href="#">
@@ -87,13 +88,37 @@
         </a>
     </div>
    
+    <div class="slider">
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
 
+            <div class="slide first">
+                <img src="./Imagenes-Inicio/slider1.png" alt="">
+            </div>
+            <div>
+                <img src="./Imagenes-Inicio/slider4.jpg" alt="">
+            </div>
+            <div>
+                <img src="./Imagenes-Inicio/slider3.png" alt="">
+            </div>
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>
+        </div>
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+        </div>
+    </div>
     <footer class="footer-conteiner">
         <div class="direction">
             <h3 class="title-footer">Nuestra Tienda</h3>
-            <h4 class="content-text">500 Terry Francois Street
-                San Francisco, CA 94158
-                Tel: 123-456-7890</h4>
+            <h4 class="content-text">Veterinaria Gold Pets, Marsella 467, Cercado de Lima 15007</h4>
                 <a href="#" class="store">
                     <i class="stores-text">Ver lista de Tiendas</i>
                 </a>
@@ -112,7 +137,7 @@
             <h3 class="title-footer">Información</h3>
             <h5 class="info-footer">
                 <a href="#">Informacion</a>
-                <a href="#">Contacto</a>
+                <a href="./contacto.html">Contacto</a>
                 <a href="#">Politica de la Tienda</a>
                 <a href="#">Envio y Devoluciones</a>
             </h5>
@@ -154,5 +179,16 @@
         <div class="burbuja"></div>
         <div class="burbuja"></div>
     </div>
+
+    <script type="text/javascript">
+        var counter = 1;
+        setInterval(function(){
+            document.getElementById('radio' + counter).ariaChecked = true;
+            counter++;
+            if(counter>4){
+                counter = 1;
+            }
+        },5000);
+    </script>
 </body>
 </html>

@@ -281,7 +281,7 @@ h5 > a{
 .end-footer{
     display: flex;
     margin-top: 50px;
-    margin-bottom: 40px;
+    margin-bottom: 8px;
     font-weight: 300;
     justify-content: space-evenly;
 }
@@ -290,7 +290,7 @@ h5 > a{
 
 /*    MEDIA QUERIES  "RESPONSIVE"   */
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 900px){
     .icono{
         display: flex;
         font-size: 30px;
@@ -354,7 +354,9 @@ h5 > a{
         position: initial;
     }
     .icons a{
+        display: none;
         margin-left: 20px;
+
     }
     .register{
         width: 100%;
@@ -367,5 +369,51 @@ h5 > a{
     .footer-conteiner{
         display: flex;
         flex-direction: row;
+    }
+    footer ,.footer-conteiner{
+        width: 102%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+        justify-content: start;
+    }
+    .direction{
+        background-color: rgb(57, 230, 172);
+        width: 100%;
+        font-size: 20px;
+    }
+    
+    .shop-animals{
+        background-color: rgb(57, 230, 172);
+        width: 100%;
+        font-size: 20px;
+    }
+    
+    .info{
+        background-color: rgb(57, 230, 172);
+        width: 100%;
+        font-size: 20px;
+    }
+    
+    .notify{
+        background-color: rgb(57, 230, 172);
+        width: 100%;
+        font-size: 20px;
+    }
+    
+    .title-footer, h4{
+        margin-top: 90px;
+        display: flex;
+        justify-content: center;
+    }
+    .content-text{
+        width: 90%;
+        display: flex;
+        /* position: relative; */
+        text-align: center;
+        font-weight: 400;
+        margin-left: 40px;
+        margin-top: 50px;
     }
 }
