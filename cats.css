@@ -166,6 +166,7 @@ form input:focus {
 
 div>.contents-items{
     height: 480px;
+    margin-top: 60px;
 }
 .contents-items>.shop-items{
     display: flex;
@@ -190,6 +191,12 @@ div>.contents-items{
     cursor: pointer;
     border: 1px solid rgb(57, 230, 172);
     background-color: rgb(57, 230, 172);
+}
+
+.precio{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
 }
 .items{
     display: flex;
@@ -322,6 +329,12 @@ h5 > a{
 .item-cat{
     height: 100px;
     background-color: black;
+}
+.shop-items-car:hover{
+    background-color: #000;
+    color: white;
+    border: none;
+    transition: 0.8s ease-in-out;
 }
 
 

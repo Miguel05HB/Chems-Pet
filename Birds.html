@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./aves.css">
+    <link rel="stylesheet" href="./cats.css">
+    <link rel="stylesheet" href="dark.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="icon" href="./Imagenes-birds/pixlr-bg-result (1).png">
@@ -35,6 +37,9 @@
                 <a href="./Birds.html">Birds</a>
                 <a href="./productopeces.html">Fish</a>
                 <a href="./contacto.html">Contacto</a>
+                <div class="conteiner">
+                    <input type="checkbox" id="toggle">
+                </div>
             </div>
         </nav>
     </header>
@@ -83,19 +88,78 @@
         </a>
     </div>
     <div class="items">
-        <img src="./Imagenes-birds/Imagen 1.webp" alt="" class="products">
-        <img src="./Imagenes-birds/Imagen 2.webp" alt="" class="products">
-        <img src="./Imagenes-birds/imagen 3.webp" alt="" class="products">
-        <img src="./Imagenes-birds/Imagen 4.webp" alt="" class="products">
-        <img src="./Imagenes-birds/Imagen 5.webp" alt="" class="products">
-        <img src="./Imagenes-birds/Imagen 6.webp" alt="" class="products">
-        <img src="./Imagenes-birds/Imagen 7.webp" alt="" class="products">
-        <img src="./Imagenes-birds/Imagen 8.webp" alt="" class="products">
-        <img src="./Imagenes-birds/imagen 9.webp" alt="" class="products">
-        <img src="./Imagenes-birds/Imagen 10.webp" alt="" class="products">
-        <img src="./Imagenes-birds/Imagen 11.webp" alt="" class="products">
-        <img src="./Imagenes-birds/Imagen 12.webp" alt="" class="products">
-    </div><br>
+        <div class="contents-items">
+            <img src="./Imagenes-birds/Imagen 1.webp" alt="" class="products">
+            <h3 class="precio">$ 15.60</h3>
+            <input type="number" min="1" max="9" step="1" value="1" class="shop-items" placeholder="Ingrese la Cantidad"><br>
+            <a href="#"><input type="button" value="Añadir al Carrito" class="shop-items-car"></a>
+        </div>
+        <div class="contents-items">
+            <img src="./Imagenes-birds/Imagen 2.webp" alt="" class="products">
+            <h3 class="precio">$ 45.50</h3>
+            <input type="number" min="1" max="9" step="1" value="1" class="shop-items" placeholder="Ingrese la Cantidad"><br>
+            <a href="#"><input type="button" value="Añadir al Carrito" class="shop-items-car"></a>
+        </div>
+        <div class="contents-items">
+            <img src="./Imagenes-birds/imagen 3.webp" alt="" class="products">
+            <h3 class="precio">$ 28.20</h3>
+            <input type="number" min="1" max="9" step="1" value="1" class="shop-items" placeholder="Ingrese la Cantidad"><br>
+            <a href="#"><input type="button" value="Añadir al Carrito" class="shop-items-car"></a>
+        </div>
+        <div class="contents-items">
+            <img src="./Imagenes-birds/Imagen 4.webp" alt="" class="products">
+            <h3 class="precio">$ 38.90</h3>
+            <input type="number" min="1" max="9" step="1" value="1" class="shop-items" placeholder="Ingrese la Cantidad"><br>
+            <a href="#"><input type="button" value="Añadir al Carrito" class="shop-items-car"></a>
+        </div>
+        <div class="contents-items">
+            <img src="./Imagenes-birds/Imagen 5.webp" alt="" class="products">
+            <h3 class="precio">$ 15.20</h3>
+            <input type="number" min="1" max="9" step="1" value="1" class="shop-items" placeholder="Ingrese la Cantidad"><br>
+            <a href="#"><input type="button" value="Añadir al Carrito" class="shop-items-car"></a>
+        </div>
+        <div class="contents-items">
+            <img src="./Imagenes-birds/Imagen 6.webp" alt="" class="products">
+            <h3 class="precio">$ 12.50</h3>
+            <input type="number" min="1" max="9" step="1" value="1" class="shop-items" placeholder="Ingrese la Cantidad"><br>
+            <a href="#"><input type="button" value="Añadir al Carrito" class="shop-items-car"></a>
+        </div>
+        <div class="contents-items">
+            <img src="./Imagenes-birds/Imagen 7.webp" alt="" class="products">
+            <h3 class="precio">$ 25.30</h3>
+            <input type="number" min="1" max="9" step="1" value="1" class="shop-items" placeholder="Ingrese la Cantidad"><br>
+            <a href="#"><input type="button" value="Añadir al Carrito" class="shop-items-car"></a>
+        </div>
+        <div class="contents-items">
+            <img src="./Imagenes-birds/Imagen 8.webp" alt="" class="products">
+            <h3 class="precio">$ 18.70</h3>
+            <input type="number" min="1" max="9" step="1" value="1" class="shop-items" placeholder="Ingrese la Cantidad"><br>
+            <a href="#"><input type="button" value="Añadir al Carrito" class="shop-items-car"></a>
+        </div>
+        <div class="contents-items">
+            <img src="./Imagenes-birds/Imagen 9.webp" alt="" class="products">
+            <h3 class="precio">$ 8.90</h3>
+            <input type="number" min="1" max="9" step="1" value="1" class="shop-items" placeholder="Ingrese la Cantidad"><br>
+            <a href="#"><input type="button" value="Añadir al Carrito" class="shop-items-car"></a>
+        </div>
+        <div class="contents-items">
+            <img src="./Imagenes-birds/Imagen 10.webp" alt="" class="products">
+            <h3 class="precio">$ 25.80</h3>
+            <input type="number" min="1" max="9" step="1" value="1" class="shop-items" placeholder="Ingrese la Cantidad"><br>
+            <a href="#"><input type="button" value="Añadir al Carrito" class="shop-items-car"></a>
+        </div>
+        <div class="contents-items">
+            <img src="./Imagenes-birds/Imagen 11.webp" alt="" class="products">
+            <h3 class="precio">$ 11.20</h3>
+            <input type="number" min="1" max="9" step="1" value="1" class="shop-items" placeholder="Ingrese la Cantidad"><br>
+            <a href="#"><input type="button" value="Añadir al Carrito" class="shop-items-car"></a>
+        </div>
+        <div class="contents-items">
+            <img src="./Imagenes-birds/Imagen 12.webp" alt="" class="products">
+            <h3 class="precio">$ 40.90</h3>
+            <input type="number" min="1" max="9" step="1" value="1" class="shop-items" placeholder="Ingrese la Cantidad"><br>
+            <a href="#"><input type="button" value="Añadir al Carrito" class="shop-items-car"></a>
+        </div><br>
 
     <footer class="footer-conteiner">
         <div class="direction">
@@ -148,6 +212,7 @@
     </div>
 
     <script src="./aves.js"></script>
+    <script src="./dark.js"></script>
     <script src="https://kit.fontawesome.com/97195b44ec.js" crossorigin="anonymous"></script>
 </body>
 </html>

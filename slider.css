@@ -52,9 +52,6 @@ body{
 .manual-btn:not(:last-child){
     margin-right: 40px;
 }
-.manual-btn:hover{
-    background: chocolate;
-}
 
 #radio1:checked ~ .first{
     margin-left: 0;
@@ -87,13 +84,30 @@ body{
 }
 
 #radio1:checked ~ .navigation-auto .auto-btn1{
-    background: rgb(43, 179, 43);
+    background: #93F9B9;
 }
 
 #radio2:checked ~ .navigation-auto .auto-btn2{
-    background: rgb(43, 179, 43);
+    background: #93F9B9;
 }
 
 #radio3:checked ~ .navigation-auto .auto-btn3{
-    background: rgb(43, 179, 43);
+    background: #93f9b9;
+}
+
+@media screen and (max-width: 900px){
+    .slider{
+        width: 500px;
+        height: 500px;
+        border-radius: 10px;
+        margin: auto;
+        overflow: hidden;
+        margin-bottom: 80px;
+    }
+
+    .slide img{
+        width: 500px;
+        height: 300px;
+    }
+    
 }
